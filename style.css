@@ -268,10 +268,10 @@ section {
     transition: 3s;
 }
 /*opacity on right*/
-.home-imgHover:hover {
+/* .home-imgHover:hover {
     background: white;
     opacity: 0.8;
-}
+} */
 
 .about {
     display: flex;
