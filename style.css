@@ -976,7 +976,7 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-@media (max-width: 52opx) {
+@media (max-width: 520px) {
     html {
         font-size: 50%;
     }
