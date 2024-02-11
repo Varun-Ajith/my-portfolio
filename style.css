@@ -12,7 +12,7 @@
 }
 
 :root {
-    --bg-color: #d2dee6;
+    --bg-color: #fdfdfd;
     --second-bg-color:#aca69c;
     --text-color: #282426;
     --main-color: #f4a02b;    
@@ -82,6 +82,8 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+
+/* HOME */
 
 .home {
     display: flex;
@@ -267,11 +269,8 @@ section {
     background: transparent;
     transition: 3s;
 }
-/*opacity on right*/
-/* .home-imgHover:hover {
-    background: white;
-    opacity: 0.8;
-} */
+
+/* ABOUT */
 
 .about {
     display: flex;
@@ -350,6 +349,8 @@ span {
 .btn-box.btns a::before {
     background: var(--second-bg-color);
 }
+
+/* EDUCATION */
 
 .education {
     display: flex;
@@ -441,6 +442,8 @@ span {
     padding-top: .5rem;
 }
 
+/* PROJECT */
+
 .project {
     display: flex;
     justify-content: center;
@@ -490,6 +493,7 @@ span {
     border-radius: 50%;
 }
 
+
 .project-content .content {
     position: relative;
     padding: 1.5rem;
@@ -529,6 +533,7 @@ span {
     font-size: 2rem;
 }
 
+/* SKILLS */
 
 .skills {
     min-height: auto;
@@ -682,6 +687,8 @@ span {
 .skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
     width: 75%;
 }
+
+/* EXTRAS */
 
 .extras {
     display: flex;
@@ -876,6 +883,7 @@ section:nth-child(odd) .animate.scroll,
     transition-delay: calc(.3s * var(--i));
     width: 0;
 }
+
 
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
